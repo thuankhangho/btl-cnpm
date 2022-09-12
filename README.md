@@ -1,5 +1,4 @@
-# btl-cnpm
-BÀI TẬP LỚN CÔNG NGHỆ PHẦN MỀM - QUẢN LÝ RÁC THẢI
+# BÀI TẬP LỚN CÔNG NGHỆ PHẦN MỀM - QUẢN LÝ RÁC THẢI
 Task 1:
 
 Task 2:
