@@ -1,4 +1,4 @@
-# BÀI TẬP LỚN CÔNG NGHỆ PHẦN MỀM - QUẢN LÝ RÁC THẢI
+# Bài tập lớn Công nghệ phần mềm - Quản lý rác thải
 Task 1:
 
 Task 2:
