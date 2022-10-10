@@ -66,11 +66,12 @@ Non-functional:
 Task 2: System modelling
 2.1	Draw an activity diagram to capture the business process between systems and the stakeholders in Task Assignment module.
 
+Stakeholders: Back officers
+
 2.2	Propose a conceptual solution for the route planning task and draw a sequence diagram to illustrate it.
 
 
 2.3	Draw a class diagram of Task Assignment module as comprehensive as possible.
-
 
 
 Task 3:
