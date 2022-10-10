@@ -1,0 +1,26 @@
+<mxfile host="65bd71144e">
+    <diagram id="f8bro3hq2V63n0aIHBkh" name="Task 2.1">
+        <mxGraphModel dx="657" dy="355" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="VcHnzByAjOA17f3QwNnb" name="Task 2.2">
+        <mxGraphModel dx="657" dy="355" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="WIa-JmH-mWgJoxxkNxEZ-0"/>
+                <mxCell id="WIa-JmH-mWgJoxxkNxEZ-1" parent="WIa-JmH-mWgJoxxkNxEZ-0"/>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="SSchtgdJ-f3Xi71LcuAf" name="Task 2.3">
+        <mxGraphModel dx="657" dy="355" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="gyXgDf-kMecvD-xgvL6y-0"/>
+                <mxCell id="gyXgDf-kMecvD-xgvL6y-1" parent="gyXgDf-kMecvD-xgvL6y-0"/>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
