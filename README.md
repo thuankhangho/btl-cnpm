@@ -63,7 +63,15 @@ Non-functional:
 
 1.3. For the Task assignment module, draw its use-case diagram and describe the use-case using a table format.
 
-Task 2:
+Task 2: System modelling
+2.1	Draw an activity diagram to capture the business process between systems and the stakeholders in Task Assignment module.
+
+2.2	Propose a conceptual solution for the route planning task and draw a sequence diagram to illustrate it.
+
+
+2.3	Draw a class diagram of Task Assignment module as comprehensive as possible.
+
+
 
 Task 3:
 
