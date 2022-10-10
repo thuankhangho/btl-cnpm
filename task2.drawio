@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="f8bro3hq2V63n0aIHBkh" name="Task 2.1">
-        <mxGraphModel dx="690" dy="296" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="376" dy="264" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -16,7 +16,7 @@
                 <mxCell id="snAStb-6BBQoRBitgBAS-26" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
                     <mxGeometry x="424" y="240" width="30" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="snAStb-6BBQoRBitgBAS-27" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="snAStb-6BBQoRBitgBAS-26" parent="1" target="snAStb-6BBQoRBitgBAS-29">
+                <mxCell id="snAStb-6BBQoRBitgBAS-27" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="snAStb-6BBQoRBitgBAS-26" target="snAStb-6BBQoRBitgBAS-29">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="189" y="480" as="targetPoint"/>
                     </mxGeometry>
@@ -229,14 +229,14 @@
                     <mxGeometry x="30" y="1139" width="60" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="09_dQwDft95VqXlqSRKo-130" value="Không" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-                    <mxGeometry x="400" y="733.13" width="45.25" height="30" as="geometry"/>
+                    <mxGeometry x="353.74" y="731.88" width="45.25" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="09_dQwDft95VqXlqSRKo-131" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.042;entryY=0.501;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="snAStb-6BBQoRBitgBAS-65" target="09_dQwDft95VqXlqSRKo-132">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="510" y="1040" as="sourcePoint"/>
                         <mxPoint x="480" y="960" as="targetPoint"/>
                         <Array as="points">
-                            <mxPoint x="480" y="880"/>
+                            <mxPoint x="439" y="880"/>
                             <mxPoint x="600" y="880"/>
                         </Array>
                     </mxGeometry>
@@ -406,7 +406,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="VcHnzByAjOA17f3QwNnb" name="Task 2.2">
-        <mxGraphModel grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" page="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="657" dy="355" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="WIa-JmH-mWgJoxxkNxEZ-0"/>
                 <mxCell id="WIa-JmH-mWgJoxxkNxEZ-1" parent="WIa-JmH-mWgJoxxkNxEZ-0"/>
@@ -414,7 +414,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="SSchtgdJ-f3Xi71LcuAf" name="Task 2.3">
-        <mxGraphModel dx="828" dy="355" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="657" dy="355" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="gyXgDf-kMecvD-xgvL6y-0"/>
                 <mxCell id="gyXgDf-kMecvD-xgvL6y-1" parent="gyXgDf-kMecvD-xgvL6y-0"/>
