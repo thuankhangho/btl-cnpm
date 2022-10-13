@@ -1,7 +1,7 @@
 # Bài tập lớn Công nghệ phần mềm - Quản lý rác thải
 Urban waste management is one of several significant problems faced by many countries in the world and thus considered one of the important points to be improved in Sustainable Development Goal (SDG) 11: sustainable cities and communities and SDG 6: clean water and sanitation. Particular attention is given to developing countries that continue to prioritize development and economic growth. In urban context, solid waste management is costly and ineffective. Improvement of waste collection and management is emphasized by governments and organizations for positive impacts on cities, societies and environments.
 
-Waste collection is often designated to an organization that provides professional waste management services. A typical waste collection process involves (1) back officers, who operate a central system to create calendar, coordinate front collectors and janitors, (2) collectors, who drive different types of vehicles and (3) janitors who manually collect garbage from Major Collecting Points (MCPs). Calendar and tasks are assigned among teams of janitors and coordinated by back officers. These assignments are often arranged in a weekly basic. Back officers also plan which vehicles to use and their routes. This planning activity happens every month. Everyday, the back officers sent messages with information about collecting route and time to collectors and janitors. Janitors use trollers to collect garbage in their assigned areas and deliver to the MCPs. Collectors will pick up garbage from all janitors at a MCP. One collector drives only one vehicle during his working shift. The collector will drive through several MCPs with a predetermined route by back officers.
+Waste collection is often designated to an organization that provides professional waste management services. A typical waste collection process involves (1) back officers, who operate a central system to create calendar, coordinate front collectors and janitors, (2) collectors, who drive different types of vehicles and (3) janitors who manually collect garbage from Major Collecting Points (MCPs). Calendar and tasks are assigned among teams of janitors and coordinated by back officers. These assignments are often arranged in a weekly basis. Back officers also plan which vehicles to use and their routes. This planning activity happens every month. Everyday, the back officers sent messages with information about collecting route and time to collectors and janitors. Janitors use trollers to collect garbage in their assigned areas and deliver to the MCPs. Collectors will pick up garbage from all janitors at a MCP. One collector drives only one vehicle during his working shift. The collector will drive through several MCPs with a predetermined route by back officers.
 
 Organization X is contracted to develop an information management system called UWC 2.0 in order to improve efficiency of garbage collection of service provider Y. The solution will include a Task Management module that allows:
 Back officers to:
@@ -69,7 +69,9 @@ Task 2: System modelling
 Stakeholders: Back officers
 
 2.2	Propose a conceptual solution for the route planning task and draw a sequence diagram to illustrate it.
-
+Concept: route planning based on a satelite map API
+Input: list of MCPs
+Output: list of routes for collectors
 
 2.3	Draw a class diagram of Task Assignment module as comprehensive as possible.
 
