@@ -481,16 +481,10 @@
         </mxGraphModel>
     </diagram>
     <diagram id="VcHnzByAjOA17f3QwNnb" name="Task 2.2">
-        <mxGraphModel dx="914" dy="398" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="843" dy="498" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="WIa-JmH-mWgJoxxkNxEZ-0"/>
                 <mxCell id="WIa-JmH-mWgJoxxkNxEZ-1" parent="WIa-JmH-mWgJoxxkNxEZ-0"/>
-                <mxCell id="E0JpuPU5KlRatohy3d2s-20" value="Chọn đường đi cho collector" style="shape=umlFrame;whiteSpace=wrap;html=1;width=170;height=20;" parent="WIa-JmH-mWgJoxxkNxEZ-1" vertex="1">
-                    <mxGeometry x="50" y="620" width="960" height="400" as="geometry"/>
-                </mxCell>
-                <mxCell id="E0JpuPU5KlRatohy3d2s-22" value="Loop" style="shape=umlFrame;whiteSpace=wrap;html=1;" parent="WIa-JmH-mWgJoxxkNxEZ-1" vertex="1">
-                    <mxGeometry x="80" y="730" width="900" height="280" as="geometry"/>
-                </mxCell>
                 <mxCell id="E0JpuPU5KlRatohy3d2s-4" value="Tạo đường đi mới" style="shape=umlFrame;whiteSpace=wrap;html=1;width=110;height=20;" parent="WIa-JmH-mWgJoxxkNxEZ-1" vertex="1">
                     <mxGeometry x="50" y="270" width="830" height="320" as="geometry"/>
                 </mxCell>
@@ -531,7 +525,7 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="V3Ao8VF7K6EM4xBRju5O-4" value="Database MCP" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="WIa-JmH-mWgJoxxkNxEZ-1" vertex="1">
-                    <mxGeometry x="430" y="220" width="100" height="620" as="geometry"/>
+                    <mxGeometry x="430" y="220" width="100" height="860" as="geometry"/>
                 </mxCell>
                 <mxCell id="V3Ao8VF7K6EM4xBRju5O-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="V3Ao8VF7K6EM4xBRju5O-4" vertex="1">
                     <mxGeometry x="45" y="190" width="10" height="100" as="geometry"/>
@@ -579,7 +573,7 @@
                     <mxGeometry x="770" y="220" width="100" height="410" as="geometry"/>
                 </mxCell>
                 <mxCell id="Q-RQzIdYL1pzvyiaPwW2-0" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="fEsouQsTVR-MmamEuO92-1" vertex="1">
-                    <mxGeometry x="50" y="177.5" width="10" height="122.5" as="geometry"/>
+                    <mxGeometry x="45" y="177.5" width="10" height="122.5" as="geometry"/>
                 </mxCell>
                 <mxCell id="Q-RQzIdYL1pzvyiaPwW2-1" value="Tính đường đi ngắn nhất&lt;br&gt;từ vị trí hiện tại đến MCP" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1.115;entryY=0.432;strokeColor=default;entryDx=0;entryDy=0;entryPerimeter=0;" parent="fEsouQsTVR-MmamEuO92-1" target="Q-RQzIdYL1pzvyiaPwW2-0" edge="1">
                     <mxGeometry relative="1" as="geometry">
@@ -591,7 +585,7 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="fEsouQsTVR-MmamEuO92-6" value="Database đường đi" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="WIa-JmH-mWgJoxxkNxEZ-1" vertex="1">
-                    <mxGeometry x="600" y="220" width="100" height="860" as="geometry"/>
+                    <mxGeometry x="610" y="220" width="100" height="860" as="geometry"/>
                 </mxCell>
                 <mxCell id="fEsouQsTVR-MmamEuO92-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="fEsouQsTVR-MmamEuO92-6" vertex="1">
                     <mxGeometry x="45" y="230" width="10" height="60" as="geometry"/>
@@ -599,19 +593,29 @@
                 <mxCell id="E0JpuPU5KlRatohy3d2s-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="fEsouQsTVR-MmamEuO92-6" vertex="1">
                     <mxGeometry x="45" y="430" width="10" height="180" as="geometry"/>
                 </mxCell>
+                <mxCell id="E0JpuPU5KlRatohy3d2s-22" value="Loop" style="shape=umlFrame;whiteSpace=wrap;html=1;" parent="fEsouQsTVR-MmamEuO92-6" vertex="1">
+                    <mxGeometry x="-550" y="450" width="900" height="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="dUvrjDjlJz3ecXmojEP9-1" value="Trả về danh sách đường đi đã tạo" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" parent="fEsouQsTVR-MmamEuO92-6" edge="1">
+                    <mxGeometry x="0.0314" relative="1" as="geometry">
+                        <mxPoint x="50" y="510" as="sourcePoint"/>
+                        <mxPoint x="-305" y="510" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
                 <mxCell id="fEsouQsTVR-MmamEuO92-4" value="Yêu cầu vị trí hiện tại" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;exitX=1.178;exitY=0.011;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.076;entryY=0.009;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIa-JmH-mWgJoxxkNxEZ-1" source="V3Ao8VF7K6EM4xBRju5O-7" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="654.6999999999998" y="409.99999999999994" as="sourcePoint"/>
                         <mxPoint x="817.76" y="410.9" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="fEsouQsTVR-MmamEuO92-5" value="Trả đường đi mới nối với&lt;br&gt;quãng đường ngắn vừa tìm được" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.092;exitY=0.799;exitDx=0;exitDy=0;exitPerimeter=0;" parent="WIa-JmH-mWgJoxxkNxEZ-1" edge="1">
+                <mxCell id="fEsouQsTVR-MmamEuO92-5" value="Trả đường đi mới nối với&lt;br&gt;quãng đường ngắn vừa tìm được" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" parent="WIa-JmH-mWgJoxxkNxEZ-1" edge="1" target="fEsouQsTVR-MmamEuO92-7" source="fEsouQsTVR-MmamEuO92-1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="817.9200000000001" y="489.9" as="sourcePoint"/>
                         <mxPoint x="660" y="489" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="E0JpuPU5KlRatohy3d2s-1" value="Kết thúc tạo đường đi?" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=-0.074;exitY=0.796;exitDx=0;exitDy=0;exitPerimeter=0;" parent="WIa-JmH-mWgJoxxkNxEZ-1" source="M9AMOyS9GaDnPIViJXgP-16" target="6uK_cuPO151VlvEUjqIm-0" edge="1">
+                <mxCell id="E0JpuPU5KlRatohy3d2s-1" value="Hoàn thành tạo đường đi?" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1.002;entryY=0.247;entryDx=0;entryDy=0;exitX=0.004;exitY=0.771;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" parent="WIa-JmH-mWgJoxxkNxEZ-1" source="M9AMOyS9GaDnPIViJXgP-16" target="6uK_cuPO151VlvEUjqIm-0" edge="1">
                     <mxGeometry width="80" relative="1" as="geometry">
                         <mxPoint x="290" y="513" as="sourcePoint"/>
                         <mxPoint x="260" y="510" as="targetPoint"/>
@@ -626,17 +630,10 @@
                 <mxCell id="E0JpuPU5KlRatohy3d2s-3" value="Tới khi nút &quot;Hoàn thành&quot; được nhấn" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIa-JmH-mWgJoxxkNxEZ-1" vertex="1">
                     <mxGeometry x="130" y="430" width="110" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="E0JpuPU5KlRatohy3d2s-6" value="Yêu cầu gửi danh sách đường đi" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;exitX=0.945;exitY=0.002;exitDx=0;exitDy=0;exitPerimeter=0;" parent="WIa-JmH-mWgJoxxkNxEZ-1" edge="1">
+                <mxCell id="E0JpuPU5KlRatohy3d2s-6" value="Yêu cầu gửi danh sách đường đi" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;exitX=0.945;exitY=0.002;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.086;entryY=0.055;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIa-JmH-mWgJoxxkNxEZ-1" edge="1" target="E0JpuPU5KlRatohy3d2s-7">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="309.99999999999983" y="660.0000000000001" as="sourcePoint"/>
                         <mxPoint x="650" y="660" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="dUvrjDjlJz3ecXmojEP9-1" value="Trả về danh sách đường đi đã tạo" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.448;exitDx=0;exitDy=0;exitPerimeter=0;" parent="WIa-JmH-mWgJoxxkNxEZ-1" source="E0JpuPU5KlRatohy3d2s-7" edge="1">
-                    <mxGeometry x="0.0314" relative="1" as="geometry">
-                        <mxPoint x="640" y="731" as="sourcePoint"/>
-                        <mxPoint x="306" y="731" as="targetPoint"/>
-                        <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="E0JpuPU5KlRatohy3d2s-12" value="Yêu cầu gửi danh sách collector" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;exitX=0.945;exitY=0.002;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.065;entryY=0.34;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIa-JmH-mWgJoxxkNxEZ-1" target="V3Ao8VF7K6EM4xBRju5O-12" edge="1">
@@ -645,7 +642,7 @@
                         <mxPoint x="850" y="780" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="dUvrjDjlJz3ecXmojEP9-2" value="Yêu cầu chọn đường đi" style="html=1;verticalAlign=bottom;endArrow=block;exitX=-0.385;exitY=0.891;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.224;entryY=0.489;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIa-JmH-mWgJoxxkNxEZ-1" target="6uK_cuPO151VlvEUjqIm-0" edge="1">
+                <mxCell id="dUvrjDjlJz3ecXmojEP9-2" value="Yêu cầu chọn đường đi" style="html=1;verticalAlign=bottom;endArrow=block;exitX=0.058;exitY=0.242;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.031;entryY=0.494;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIa-JmH-mWgJoxxkNxEZ-1" target="6uK_cuPO151VlvEUjqIm-0" edge="1" source="E0JpuPU5KlRatohy3d2s-9">
                     <mxGeometry x="-0.0017" width="80" relative="1" as="geometry">
                         <mxPoint x="298.28999999999996" y="720" as="sourcePoint"/>
                         <mxPoint x="130" y="720.72" as="targetPoint"/>
@@ -658,10 +655,10 @@
                         <mxPoint x="340" y="828" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="E0JpuPU5KlRatohy3d2s-15" value="Chọn collector" style="html=1;verticalAlign=bottom;endArrow=block;exitX=1.348;exitY=0.658;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.26;entryY=0.617;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIa-JmH-mWgJoxxkNxEZ-1" source="6uK_cuPO151VlvEUjqIm-0" target="E0JpuPU5KlRatohy3d2s-9" edge="1">
+                <mxCell id="E0JpuPU5KlRatohy3d2s-15" value="Chọn collector" style="html=1;verticalAlign=bottom;endArrow=block;" parent="WIa-JmH-mWgJoxxkNxEZ-1" edge="1">
                     <mxGeometry width="80" relative="1" as="geometry">
-                        <mxPoint x="170" y="860" as="sourcePoint"/>
-                        <mxPoint x="250" y="860" as="targetPoint"/>
+                        <mxPoint x="120" y="860" as="sourcePoint"/>
+                        <mxPoint x="295" y="860" as="targetPoint"/>
                         <Array as="points"/>
                     </mxGeometry>
                 </mxCell>
@@ -674,11 +671,14 @@
                         <mxPoint x="600" y="460" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
+                <mxCell id="E0JpuPU5KlRatohy3d2s-20" value="Chọn đường đi cho collector" style="shape=umlFrame;whiteSpace=wrap;html=1;width=170;height=20;" parent="WIa-JmH-mWgJoxxkNxEZ-1" vertex="1">
+                    <mxGeometry x="50" y="620" width="960" height="400" as="geometry"/>
+                </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
     <diagram id="SSchtgdJ-f3Xi71LcuAf" name="Task 2.3">
-        <mxGraphModel dx="1741" dy="1567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="2133" dy="1738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="gyXgDf-kMecvD-xgvL6y-0"/>
                 <mxCell id="gyXgDf-kMecvD-xgvL6y-1" parent="gyXgDf-kMecvD-xgvL6y-0"/>
