@@ -70,8 +70,13 @@ Stakeholders: Back officers
 
 2.2	Propose a conceptual solution for the route planning task and draw a sequence diagram to illustrate it.
 Concept: route planning based on a satelite map API
-Input: list of MCPs
-Output: list of routes for collectors
+Vì việc thiết kế đường đi là công việc của Back officer, actor duy nhất trong module này là Back officer.
+
+Back officer sẽ có 2 lựa chọn khi đăng nhập vào hệ thống thiết kế đường đi: tạo đường đi mới hoặc gán đường đi cho collector.
+
+Nếu nhấn nút “Tạo đường đi mới”, hệ thống sẽ cho phép Back officer tạo đường đi từ vị trí hiện tại (trụ sở chính), đi qua các MCP (dựa trên danh sách các MCP được chọn). Cụ thể, nếu back officer chọn MCP lần đầu thì sẽ tạo đường đi mới từ trụ sở đến vị trí của MCP đó. Nếu chọn lần tiếp theo thì hệ thống sẽ tạo đường đi mới và ghép nối với đường đi khởi đầu để tạo thành đường đi mới.
+
+Nếu nhấn nút "Gán đường đi cho Collector", hệ thống sẽ hiện ra danh sách các đường đi đã tạo. Back officer có thể gán các đường đi đó cho các collector. Tiếp theo, hệ thống sẽ hiện ra danh sách phương tiện và cho phép Back officer gán phương tiện vào collector. Cuối cùng, hệ thống sẽ hiện ra danh sách collector & cho phép Back officer chọn collector để đi trên đường đi đã chọn. Sau khi đã chọn đường đi cho các collector, hệ thống sẽ tiến hành xác nhận & cập nhật danh sách đường đi (thêm thông tin về collector & phương tiện) trong database đường đi, cập nhật danh sách collector (thêm thông tin về đường đi & phương tiện sử dụng) trong database collector và cập nhật danh sách phương tiện (thêm thông tin về collector vận hành & đường đi) trong database phương tiện.
 
 2.3	Draw a class diagram of Task Assignment module as comprehensive as possible.
 
