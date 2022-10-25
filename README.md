@@ -22,7 +22,7 @@ Collectors & janitors to:
   
 There are some constraints to the development of UWC 2.0. There exists a current system UWC 1.0 with a database. UWC 2.0 is expected to import and to use the existing data from UWC 1.0. It is expected that the Task Management to be inter-operable with the UWC 1.0 as much as possible. The system should be able to handle real-time data from at least 1000 MCPs at the moment and 10.000 MCPs in five years. UWC 2.0 system interfaces should be in Vietnamese, with an opportunity to switch to English in the future.
 
-Task 1: Requirement elicitation
+---Task 1: Requirement elicitation---
 1.1. Identify the context of this project. Who are relevant stakeholders? What are their current needs? What could be their current problem? In your opinion, what benefits will UWC 2.0 be for each stakeholder?
 
 Context: urban waste management (environmental project)
@@ -63,7 +63,7 @@ Non-functional:
 
 1.3. For the Task assignment module, draw its use-case diagram and describe the use-case using a table format.
 
-Task 2: System modelling
+---Task 2: System modelling---
 2.1	Draw an activity diagram to capture the business process between systems and the stakeholders in Task Assignment module.
 
 Stakeholders: Back officers
@@ -81,7 +81,10 @@ Nếu nhấn nút "Gán đường đi cho Collector", hệ thống sẽ hiện r
 2.3	Draw a class diagram of Task Assignment module as comprehensive as possible.
 
 
-Task 3:
+---Task 3: Architecture design---
+3.1	Describe an architectural approach you will use to implement the desired system. How many modules you plan for the whole WMC 2.0 system? Briefly describe input, output and function of each module
+
+3.2	Draw an implementation diagram for Task Assignment module
 
 Task 4:
 
