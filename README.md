@@ -60,7 +60,6 @@ Non-functional:
   Handle real-time data from at least 1000 MCPs at the moment and 10000 MCPs in five years (performance efficiency)
   UWC 2.0 system interfaces should be in Vietnamese, with an opportunity to switch to English in the future. (usability)
 
-
 1.3. For the Task assignment module, draw its use-case diagram and describe the use-case using a table format.
 
 ---Task 2: System modelling---
@@ -85,25 +84,106 @@ Nếu nhấn nút "Gán đường đi cho Collector", hệ thống sẽ hiện r
 3.1	Describe an architectural approach you will use to implement the desired system. How many modules are you planning for the whole UWC 2.0 system? Briefly describe the input, output and function of each module.
 
 Architectual approach: MVC
-Model: employee (collector & janitor), back officer
-View: 
-Controller:
+Model: employee (janitor, collector & back officer), vehicle, task, schedule, MCP, area,...
+View: home, login, dashboard,...
+Controller: assign, edit, delete (back officer), login, view profile,...
+
+Task Assignment
+Input: tasks, employees
+Output: employees
+Function: gán nhiệm vụ cho nhân viên
+
+Task Management
+Input:
+Output:
+Function:
+
+Task Overview
+Input:
+Output:
+Function:
 
 Vehicle Assignment
 Input:
 Output:
 Function:
 
-Task Assignment
-Input: tasks, employees
-Output: 
-Function: gán nhiệm vụ cho nhân viên
-
-Route Planning
+Vehicle Management
 Input:
 Output:
 Function:
 
+Vehicle Overview
+Input:
+Output:
+Function:
+
+Schedule Assignment
+Input:
+Output:
+Function:
+
+Schedule Management
+Input:
+Output:
+Function:
+
+Schedule Overview
+Input:
+Output:
+Function:
+
+MCP Assignment
+Input:
+Output:
+Function:
+
+MCP Management
+Input:
+Output:
+Function:
+
+MCP Overview
+Input:
+Output:
+Function:
+
+Area Assignment
+Input:
+Output:
+Function:
+
+Area Management
+Input:
+Output:
+Function:
+
+Area Overview
+Input:
+Output:
+Function:
+
+Route Assignment
+Input: MCPs
+Output: routes
+Function:
+
+Route Management
+Input: MCPs
+Output: routes
+Function:
+
+Route Overview
+Input:
+Output:
+Function:
+
+Communication
+Input:
+Output:
+Function:
+
+Overview
 
 3.2	Draw an implementation diagram for Task Assignment module
 
