@@ -85,6 +85,9 @@ Nếu nhấn nút "Gán đường đi cho Collector", hệ thống sẽ hiện r
 3.1	Describe an architectural approach you will use to implement the desired system. How many modules are you planning for the whole UWC 2.0 system? Briefly describe the input, output and function of each module.
 
 Architectual approach: MVC
+Model: employee (collector & janitor), back officer
+View: 
+Controller:
 
 Vehicle Assignment
 Input:
