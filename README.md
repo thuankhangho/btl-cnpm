@@ -89,101 +89,99 @@ View: home, login, dashboard,...
 Controller: assign, edit, delete (back officer), login, view profile,...
 
 Task Assignment
-Input: tasks, employees
-Output: employees
+Input: danh sách các tasks, employee
+Output: danh sách các employee
 Function: gán nhiệm vụ cho nhân viên
 
 Task Management
-Input:
-Output:
-Function:
+Input: danh sách các task
+Output: danh sách các task
+Function: thêm, sửa, xóa, xem danh sách các task của mọi nhân viên
 
 Task Overview
 Input:
-Output:
-Function:
+Output: task list
+Function: xem các task được giao
 
 Vehicle Assignment
-Input:
-Output:
-Function:
+Input: danh sách các vehicles, collectors
+Output: danh sách các vehicle
+Function: giao vehicle cho các collector
 
 Vehicle Management
-Input:
-Output:
-Function:
+Input: danh sách các vehicle
+Output: danh sách các vehicle
+Function: thêm, sửa, xóa các vehicle trong danh sách
 
 Vehicle Overview
-Input:
-Output:
-Function:
+Input: danh sách các vehicle
+Output: vehicle được giao
+Function: hiển thị vehicle được giao
 
 Schedule Assignment
-Input:
-Output:
-Function:
+Input: tasks
+Output: schedules
+Function: giao việc cho janitors/collectors
 
 Schedule Management
-Input:
-Output:
-Function:
+Input: schedules
+Output: schedules
+Function: thêm, sửa, xóa, xem danh sách các schedule
 
 Schedule Overview
 Input:
-Output:
-Function:
+Output: schedules
+Function: hiển thị schedules của janitors/collectors
 
 MCP Assignment
-Input:
-Output:
-Function:
+Input: danh sách các vehicles
+Output: danh sách MCPs được giao
+Function: giao MCPs cho từng vehicle
 
 MCP Management
-Input:
-Output:
-Function:
+Input: danh sách MCPs được giao
+Output: danh sách MCPs được giao
+Function: thêm, sửa, xóa, xem danh sách các MCPs được giao
 
 MCP Overview
-Input:
-Output:
-Function:
+Input: 
+Output: danh sách MCPs được giao
+Function: hiển thị danh sách MCPs được giao
 
 Area Assignment
-Input:
-Output:
-Function:
+Input: areas, janitors
+Output: danh sách areas
+Function: giao việc cho janitors ở từng area
 
 Area Management
-Input:
-Output:
-Function:
+Input: danh sách areas
+Output: danh sách areas
+Function: thêm, sửa, xóa, xem danh sách các Area
 
 Area Overview
-Input:
-Output:
-Function:
+Input: 
+Output: danh sách areas
+Function: hiển thị các areas mà janitors cần đi
 
 Route Assignment
-Input: MCPs
-Output: routes
-Function:
+Input: routes, collectors
+Output: collectors
+Function: gán routes vào collectors 
 
 Route Management
-Input: MCPs
+Input: MCPs, routes
 Output: routes
-Function:
+Function: thêm, sửa, xóa, xem danh sách các Route
 
 Route Overview
-Input:
-Output:
-Function:
+Input: 
+Output: danh sách các routes
+Function: cho phép collectors thấy được route cần đi
 
-Communication
-Input:
-Output:
-Function:
-
-Overview
+Notifications management
+Input: danh sách các notification
+Output: danh sách các notification
+Function: thêm, sửa, xóa, xem danh sách các notification
 
 3.2	Draw an implementation diagram for Task Assignment module
 
