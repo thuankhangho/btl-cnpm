@@ -183,7 +183,7 @@ Input: danh sách các notification
 Output: danh sách các notification
 Function: thêm, sửa, xóa, xem danh sách các notification
 
-3.2	Draw an implementation diagram for Task Assignment module
+3.2	Draw an implementation diagram for the Task Assignment module
 
 Task 4:
 
