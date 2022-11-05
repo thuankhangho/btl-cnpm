@@ -1,12 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home</title>
-</head>
-<body>
-  <h1>This is home page</h1>
-</body>
-</html>
+<?php $this->view('includes/header') ?>
+  <div class="container-fluid">
+    <i class="fa-sharp fa-solid fa-house fa-2x"></i>
+    <h1>This is home page</h1>
+  </div>
+<?php $this->view('includes/footer') ?>
