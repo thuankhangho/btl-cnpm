@@ -10,7 +10,6 @@ class Controller {
       require("../private/views/404.view.php"); 
     }
   }
-  
-
 }
+
 ?>

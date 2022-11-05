@@ -1,4 +1,5 @@
 <?php $this->view('includes/header') ?>
+
 <div class="h-100 h-custom my-container-log">
   <div class="container py-5 h-100">
     <div class="row d-flex justify-content-center align-items-center h-100">
@@ -16,9 +17,9 @@
                 <label class="form-label" for="password" required>Password</label>
                 <input type="password" name="password" id="password" class="form-control"/>
               </div>
-                <p class="text-center text-muted mt-5 mb-0">Haven't gotten an account? <a href="#" class="fw-bold text-body"><u>SIGN UP NOW</u></a></p><br>
+              <p class="text-center text-muted mt-5 mb-0">Haven't gotten an account? <a href="signup" class="fw-bold text-body">SIGN UP NOW</a></p><br>
               <div class="d-flex justify-content-center align-items-center">
-                <button type="submit" name="login" class="btn btn-success btn-lg mb-1">Login</button>
+                <button type="submit" name="login" class="btn btn-success btn-lg">Login</button>
               </div>
             </form>
           </div>
@@ -27,4 +28,5 @@
     </div>
   </div>
 </div>
+
 <?php $this->view('includes/footer') ?>
