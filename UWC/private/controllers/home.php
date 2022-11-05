@@ -1,10 +1,9 @@
 <?php
 
-class Home extends Controller
-{
-  function __construct()
-  {
-    echo "KonKonKitsune";
+class Home extends Controller {
+  
+  function index() {
+    echo $this->view('home');
   }
 }
 
