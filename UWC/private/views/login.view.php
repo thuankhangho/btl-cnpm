@@ -1,6 +1,6 @@
 <?php $this->view('includes/header') ?>
 
-<div class="h-100 h-custom my-container-log">
+<div class="h-100 h-custom" style="background-image:url(../public/assets/img/bg-form.jpg);">
   <div class="container py-5 h-100">
     <div class="row d-flex justify-content-center align-items-center h-100">
       <div class="col-lg-8 col-xl-6">
