@@ -1,4 +1,5 @@
 <?php $this->view('includes/header') ?>
+<?php $this->view('includes/nav') ?>
 
 <div class="h-100 h-custom" style="background-image:url(../public/assets/img/bg-form.jpg);">
   <div class="container py-5 h-100">
