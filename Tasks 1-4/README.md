@@ -185,6 +185,11 @@ Function: thêm, sửa, xóa, xem danh sách các notification
 
 3.2	Draw an implementation diagram for the Task Assignment module
 
-Task 4:
+Task 4: Implementation - Sprint 1
+4.1	Setting up. The team creates an online repository (github, bitbucket, etc) for version control. folders this stage, no need for a database to store all menu items, customers, etc. Data can be hard coded in code files.
+
+4.2	Adding documents, materials and folders for Requirement, System modelling and Architectural design. Use the selected version control system to report the changes to these files.
+
+4.3	Implement MVP1 – design an interface of either a Desktop-view central dashboard for Task Management for back-officers OR a Mobile-view Task assignment for Janitors and Collectors. Decide yourself what to include in the view. Design use a wireframe tool. 
 
 Task 5:
