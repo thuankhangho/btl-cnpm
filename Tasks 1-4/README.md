@@ -186,7 +186,7 @@ Function: thêm, sửa, xóa, xem danh sách các notification
 3.2	Draw an implementation diagram for the Task Assignment module
 
 Task 4: Implementation - Sprint 1
-4.1	Setting up. The team creates an online repository (github, bitbucket, etc) for version control. folders this stage, no need for a database to store all menu items, customers, etc. Data can be hard coded in code files.
+4.1	Setting up. The team creates an online repository (GitHub, BitBucket, etc) for version control. No need for a database to store all menu items, customers, etc. Data can be hard coded in code files.
 
 4.2	Adding documents, materials and folders for Requirement, System modelling and Architectural design. Use the selected version control system to report the changes to these files.
 
