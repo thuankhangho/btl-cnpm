@@ -2,12 +2,7 @@
 <?php $this->view('includes/nav') ?>
 
 <div class="container-fluid">
-  <i class="fa-sharp fa-solid fa-house fa-2x"></i>
-  <h1>This is home page</h1>
-  <?php
-    echo "<pre>";
-    print_r($data['rows']);
-  ?>
+  <h1>Profile <i class="fa-sharp fa-solid fa-search"></i></h1>
 </div>
-
+    
 <?php $this->view('includes/footer') ?>
