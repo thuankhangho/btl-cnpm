@@ -32,9 +32,9 @@ Needs:
   Collectors: co-ords to MCPs & vehicles
   Janitors: trollers & assigned areas
 Current problems:
-  Back officers: scheduling & routing, loaded MCPs or not, communication
-  Collectors: loaded MCPs, communication
-  Janitors: communication
+  Back officers: scheduling & routing, loaded MCPs or not, communicate
+  Collectors: loaded MCPs, communicate
+  Janitors: communicate
 Benefits:
   Back officers: cross-use with 1.0, ability to reuse old databases, ability to manage more MCPs
   Collectors: ease of access via language check
