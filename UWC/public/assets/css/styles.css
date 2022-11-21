@@ -15,8 +15,8 @@
   --bg: rgba(255, 255, 255, 0.3);
 }
 
-/* navbar section */
-.my-navbar {
+ 
+/*.my-navbar {
   border-bottom: var(--border);
 }
 
@@ -40,4 +40,4 @@
 
 .dropdown-item {
   color: var(--color);
-}
+}*/
