@@ -9,6 +9,17 @@
           <img src="../public/assets/img/ajisai.jpg" class="w-100" style="border-top-left-radius: .3rem; border-top-right-radius: .3rem;">
           <div class="card-body p-4 p-md-5">
             <h3 class="mb-4 pb-2 pb-md-0 mb-md-5 px-md-2">Log in</h3>
+            
+            <?php if (count($errors) > 0): ?>
+            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+              <strong>ERROR!</strong>
+              <?php foreach($errors as $error): ?>
+                <br><?=$error?>
+              <?php endforeach; ?>
+              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+            <?php endif; ?>
+
             <form action="" method="post" class="px-md-2">
               <div class="form-outline mb-4">
                 <label class="form-label" for="username" required>Username</label>
