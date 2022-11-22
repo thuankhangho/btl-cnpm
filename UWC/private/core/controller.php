@@ -21,7 +21,7 @@ class Controller {
   }
 
   public function redirect ($link) {
-    header("Location: ".ROOT."/".$link);
+    header("Location: ../public/" . $link);
     die;
   }
 }
