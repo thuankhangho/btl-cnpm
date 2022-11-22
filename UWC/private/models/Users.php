@@ -14,7 +14,7 @@ class Users extends Model {
   ];
 
   protected $beforeInsert = [
-    'hash_password'
+    // 'hash_password'
   ];
 
   public function validate($DATA) {

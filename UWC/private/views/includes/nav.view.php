@@ -12,14 +12,16 @@
   </div>
   
   <!-- Icon dropdown -->
-  <div class="dropdown col-sm-3">
-    <a href="#" class="d-flex align-items-center text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false" style="justify-content: right; align-items: right; padding-right: 15px">
-      <img src="../public/assets/img/logo.png" alt="hugenerd" width="30" height="30" class="rounded-circle">
+  <div class="dropdown col-sm-3 d-flex flex-row-reverse">
+
+    <a href="#" class="align-items-center text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false" style="padding-right: 15px">
       <span class="d-none d-sm-inline mx-1">
-        <?=Auth::user()?>
-      </span>
-    </a>
+        Admin
+      </span>      
+    </a>    
+    <img src="../public/assets/img/logo.png" alt="hugenerd" width="40" height="40" class="rounded-circle border border-info img-thumbnail">
     <ul class="dropdown-menu dropdown-menu-end dropdown-menu-dark text-small shadow" aria-labelledby="dropdownUser1">
+      <li><span class="dropdown-item"><?=Auth::user()?></span></li><br>
       <li><a class="dropdown-item" href="profile">Profile</a></li>
       <li><a class="dropdown-item" href="logout">Logout</a></li>
     </ul>
@@ -31,10 +33,10 @@
       <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
     </div>
     <div class="offcanvas-body">
-      <a class="nav-link" href="index">&nbsp;&nbsp;Home&nbsp;&nbsp;</a>
-      <a class="nav-link" href="about">&nbsp;&nbsp;About&nbsp;&nbsp;</a>
-      <a class="nav-link" href="#">&nbsp;&nbsp;Task Board&nbsp;&nbsp;</a>
-      <a class="nav-link" href="#">&nbsp;&nbsp;Schedule&nbsp;&nbsp;</a>
+      <a class="nav-link" href="index">Home</a>
+      <a class="nav-link" href="about">About</a>
+      <a class="nav-link" href="#">Task Board</a>
+      <a class="nav-link" href="#">Schedule</a>
     </div>
   </div>
   <!-- Side Nav Bar -->
