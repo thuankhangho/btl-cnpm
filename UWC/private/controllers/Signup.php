@@ -13,7 +13,7 @@ class Signup extends Controller {
       }
     }
 
-    echo $this->view('signup', ['errors'=>$errors]);
+    $this->view('signup', ['errors'=>$errors]);
   }
 }
 

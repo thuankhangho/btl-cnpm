@@ -7,6 +7,7 @@
   <!-- <?php
     echo "<pre>";
     print_r($data['rows']);
+    echo "</pre>";
   ?> -->
 </div>
 

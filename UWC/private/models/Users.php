@@ -24,6 +24,10 @@ class Users extends Model {
       $this->errors['username'] = 'Only letters and numbers allowed in Username';
     }
 
+    if ($this->where('username', $DATA['username'])) {
+      $this->errors['username'] = 'Username already exist';
+    }
+
     if (empty($DATA['password']) || strlen($DATA['password'] < 8)) {
       $this->errors['password'] = 'Password must be at least 8 characters long';
     }

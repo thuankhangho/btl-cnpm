@@ -1,7 +1,9 @@
 <?php
+
 class Dashboard extends Controller {
-    function index() {
-      $this->view('dashboard');
-    }
+  function index() {
+    $this->view('dashboard');
   }
+}
+
 ?>

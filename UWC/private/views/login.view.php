@@ -23,7 +23,7 @@
             <form action="" method="post" class="px-md-2">
               <div class="form-outline mb-4">
                 <label class="form-label" for="username" required>Username</label>
-                <input type="text" name="username" id="username" class="form-control"/>
+                <input type="text" name="username" id="username" value="<?=get_var('username')?>" class="form-control"/>
               </div>
               <div class="form-outline mb-4">
                 <label class="form-label" for="password" required>Password</label>

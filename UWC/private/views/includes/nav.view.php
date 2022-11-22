@@ -16,10 +16,11 @@
 
     <a href="#" class="align-items-center text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false" style="padding-right: 15px">
       <span class="d-none d-sm-inline mx-1">
-        Admin
+        <?=Auth::user('fullname')?><br>
+        <?=Auth::user('email')?>
       </span>      
     </a>    
-    <img src="../public/assets/img/logo.png" alt="hugenerd" width="40" height="40" class="rounded-circle border border-info img-thumbnail">
+    <img src="../public/assets/img/logo.png" alt="hugenerd" width="48" height="48" class="rounded-circle border border-info img-thumbnail d-none d-sm-inline mx-1">
     <ul class="dropdown-menu dropdown-menu-end dropdown-menu-dark text-small shadow" aria-labelledby="dropdownUser1">
       <li><span class="dropdown-item"><?=Auth::user()?></span></li><br>
       <li><a class="dropdown-item" href="profile">Profile</a></li>
@@ -35,12 +36,12 @@
     <hr>
     <div class="offcanvas-body">
       <ul class="nav nav-pills center-pills flex-column mb-auto bx-ul">
-        <li><a class="nav-link" href="index"><box-icon name='home-alt'></box-icon>&nbsp;      Home</a></li>
-        <li><a class="nav-link" href="about"><box-icon name='task'></box-icon>&nbsp;      Task</a></li>
-        <li><a class="nav-link" href=""><box-icon name='envelope' type='solid' ></box-icon>&nbsp;      Messages</a></li>
-        <li><a class="nav-link" href=""><box-icon name='bell' ></box-icon>&nbsp;      Notifications</a></li>
-        <li><a class="nav-link" href="#"><box-icon name='user' ></box-icon>&nbsp;      Employees</a></li>
-        <li><a class="nav-link" href="#"><box-icon name='cog' ></box-icon>&nbsp;      Settings</a></li>
+        <li><a class="nav-link" href="index"><box-icon name='home-alt'></box-icon>&nbsp; Home</a></li>
+        <li><a class="nav-link" href="tasks"><box-icon name='task'></box-icon>&nbsp; Tasks</a></li>
+        <li><a class="nav-link" href="messages"><box-icon name='envelope' type='solid' ></box-icon>&nbsp; Messages</a></li>
+        <li><a class="nav-link" href="notifications"><box-icon name='bell' ></box-icon>&nbsp; Notifications</a></li>
+        <li><a class="nav-link" href="employees"><box-icon name='user' ></box-icon>&nbsp; Employees</a></li>
+        <li><a class="nav-link" href="settings"><box-icon name='cog' ></box-icon>&nbsp; Settings</a></li>
       </ul>
     </div>
     <hr>

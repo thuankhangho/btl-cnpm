@@ -27,7 +27,7 @@
               </div>
               <div class="form-outline mb-4">
                 <label class="form-label" for="password" required>Password</label>
-                <input type="password" name="password" value="<?=get_var('password')?>" id="password" class="form-control" required>
+                <input type="password" name="password" id="password" class="form-control" required>
               </div>
               <div class="form-outline mb-4">
                 <label class="form-label" for="fullname">Full name</label>

@@ -16,7 +16,7 @@ class Login extends Controller {
       $errors['username'] = 'Wrong Username or Password';
     }
 
-    echo $this->view('login', ['errors'=>$errors]);
+    $this->view('login', ['errors'=>$errors]);
   }
 }
 

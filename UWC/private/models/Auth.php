@@ -14,13 +14,14 @@ class Auth {
     return false;
   }
 
-  public static function user() {
-    if (isset($_SESSION['USER'])) {
-      return $_SESSION['USER']->username;
+  public static function user($col = 'username') {
+    $col = strtolower($col);
+    if (isset($_SESSION['USER']->$col)) {
+      return $_SESSION['USER']->$col;
     }
     return false;
   }
-
+  
 }
 
 ?>
