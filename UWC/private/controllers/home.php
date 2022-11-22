@@ -19,9 +19,9 @@ class Home extends Controller {
     // $user->delete(8);
     // $data = $user->where('gender', 0);
 
-    if (!Auth::logged_in()) {
-      $this->redirect('login');
-    }
+    // if (!Auth::logged_in()) {
+    //   $this->redirect('login');
+    // }
     $user = new Users();
     $data = $user->findAll();
     
