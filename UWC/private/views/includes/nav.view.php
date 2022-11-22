@@ -27,18 +27,29 @@
     </ul>
   </div>
   <!-- Side Nav Bar -->
-  <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+  <div class="offcanvas offcanvas-start rounded-lg" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
     <div class="offcanvas-header">
       <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">UWC 2.0</h5>
       <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
     </div>
+    <hr>
     <div class="offcanvas-body">
-      <a class="nav-link" href="index">Home</a>
-      <a class="nav-link" href="about">About</a>
-      <a class="nav-link" href="#">Task Board</a>
-      <a class="nav-link" href="#">Schedule</a>
+      <ul class="nav nav-pills center-pills flex-column mb-auto bx-ul">
+        <li><a class="nav-link" href="index"><box-icon name='home-alt'></box-icon>&nbsp;      Home</a></li>
+        <li><a class="nav-link" href="about"><box-icon name='task'></box-icon>&nbsp;      Task</a></li>
+        <li><a class="nav-link" href=""><box-icon name='envelope' type='solid' ></box-icon>&nbsp;      Messages</a></li>
+        <li><a class="nav-link" href=""><box-icon name='bell' ></box-icon>&nbsp;      Notifications</a></li>
+        <li><a class="nav-link" href="#"><box-icon name='user' ></box-icon>&nbsp;      Employees</a></li>
+        <li><a class="nav-link" href="#"><box-icon name='cog' ></box-icon>&nbsp;      Settings</a></li>
+      </ul>
     </div>
+    <hr>
   </div>
   <!-- Side Nav Bar -->
   
 </nav>
+
+
+<script>
+
+</script>
