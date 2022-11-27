@@ -13,7 +13,7 @@
   
   <!-- Icon dropdown -->
   <div class="dropdown col-sm-3 d-flex flex-row-reverse">
-
+    <?php if (Auth::logged_in()): ?>
     <a href="#" class="align-items-center text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false" style="padding-right: 15px">
       <span class="d-none d-sm-inline mx-1">
         <?=Auth::user('fullname')?><br>
@@ -22,11 +22,13 @@
     </a>    
     <img src="../public/assets/img/logo.png" alt="hugenerd" width="48" height="48" class="rounded-circle border border-info img-thumbnail d-none d-sm-inline mx-1">
     <ul class="dropdown-menu dropdown-menu-end dropdown-menu-dark text-small shadow" aria-labelledby="dropdownUser1">
-      <li><span class="dropdown-item"><?=Auth::user()?></span></li><br>
+      <li><span class="dropdown-item"><?=Auth::user()?></span></li><hr>
       <li><a class="dropdown-item" href="profile">Profile</a></li>
       <li><a class="dropdown-item" href="logout">Logout</a></li>
     </ul>
+    <?php endif; ?>
   </div>
+  
   <!-- Side Nav Bar -->
   <div class="offcanvas offcanvas-start rounded-lg" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
     <div class="offcanvas-header">
