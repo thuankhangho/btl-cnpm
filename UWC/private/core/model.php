@@ -38,7 +38,7 @@ class Model extends Database {
     $keys = array_keys($data);
     $columns = implode(',', $keys);
     $values = implode(',:', $keys);
-    $query  = "insert into $this->table ($columns) values (:$values)";
+    $query  = "INSERT INTO $this->table ($columns) VALUES (:$values)";
     return $this->query($query, $data);
   }
 
@@ -49,13 +49,13 @@ class Model extends Database {
     }
     $str = trim($str, ",");
     $data['id'] = $id;
-    $query  = "update $this->table set $str where id = :id";
+    $query  = "UPDATE $this->table SET $str WHERE id = :id";
     return $this->query($query, $data);
   }
 
   public function delete($id) {
     $data['id'] = $id;
-    $query  = "delete from $this->table where id = :id";
+    $query  = "DELETE FROM $this->table WHERE id = :id";
     return $this->query($query, $data);
   }
 

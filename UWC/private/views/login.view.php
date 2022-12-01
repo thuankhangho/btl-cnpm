@@ -29,7 +29,7 @@
                 <label class="form-label" for="password" required>Password</label>
                 <input type="password" name="password" id="password" class="form-control"/>
               </div>
-              <p class="text-center text-muted mt-5 mb-0">Haven't gotten an account? <a href="signup" class="fw-bold text-body">SIGN UP NOW</a></p><br>
+              <p class="text-center text-muted mt-5 mb-0">Haven't gotten an account? <a href="signup" class="fw-bold text-body">Sign up now!</a></p><br>
               <div class="d-flex justify-content-center align-items-center">
                 <button type="submit" name="login" class="btn btn-success btn-lg">Login</button>
               </div>

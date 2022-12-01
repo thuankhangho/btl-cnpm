@@ -49,10 +49,10 @@
               <div class="form-outline mb-4">
                 <label class="form-label" for="occupation" required>Occupation</label>
                 <select class="select" name="occupation" required>
-                  <option <?=get_select('occupation', 'Back officer')?> value="Back officer">Back officer</option>
+                  <!-- <option <?=get_select('occupation', 'Back officer')?> value="Back officer">Back officer</option> -->
                   <option <?=get_select('occupation', 'Collector')?> value="Collector">Collector</option>
                   <option <?=get_select('occupation', 'Janitor')?> value="Janitor">Janitor</option>
-                  <option <?=get_select('occupation', 'Admin')?> value="Admin">Admin</option>
+                  <!-- <option <?=get_select('occupation', 'Admin')?> value="Admin">Admin</option> -->
                 </select>
               </div>
               <div class="form-outline mb-4">

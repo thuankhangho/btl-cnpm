@@ -51,8 +51,3 @@
   <!-- Side Nav Bar -->
   
 </nav>
-
-
-<script>
-
-</script>

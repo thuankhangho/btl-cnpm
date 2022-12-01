@@ -16,3 +16,5 @@
 </head>
 <body>
 <div style="min-width:350px;">
+</body>
+</html>
