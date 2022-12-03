@@ -14,6 +14,19 @@
   --gray: #57606f;
   --bg: rgba(255, 255, 255, 0.3);
 }
+
+.circle1 {
+  background: linear-gradient(180deg, #048A42 -50%, #50E680 182.35%);
+
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  display: flex;
+}
+
+.bell1 {
+  margin: auto;
+}
 /*.my-navbar {
   border-bottom: var(--border);
 }

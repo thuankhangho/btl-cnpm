@@ -7,26 +7,34 @@
   </div>
   <div class="boxes">
     <div class="row">
-      <div class="col-sm-3 rounded">
-        <div class="well bg bg-danger rounded">
-          1st Column
+      <a class="col-sm-2 rounded" href="notifications" style="background-color: #FFF8E5;">
+        <div class="p-2 well bg rounded">
+        <div class="circle1">
+            <box-icon name='bell' class="bell1"></box-icon>
         </div>
-      </div>
-      <div class="col-sm-3 rounded">
-        <div class="well bg bg-warning rounded">
-          2nd Column
         </div>
-      </div>
-      <div class="col-sm-3 rounded">
-        <div class="well bg bg-primary rounded">
-          3rd Column
+      </a>
+      <a class="col-sm-2 rounded" style="background-color: #E4F8EB;">
+      <div class="well bg rounded">
+        <div class="circle1">
+            <box-icon name='bell' class="bell1"></box-icon>
         </div>
-      </div>
-      <div class="col-sm-3 rounded">
-        <div class="well bg bg-success rounded">
-          4th Column
         </div>
-      </div>
+      </a>
+      <a class="col-sm-2 rounded" style="background-color:#EBE8FE">
+      <div class="well bg rounded">
+        <div class="circle1">
+            <box-icon name='bell' class="bell1"></box-icon>
+        </div>
+        </div>
+      </a>
+      <a class="col-sm-2 rounded" style="background-color: #3C21F7">
+      <div class="well bg rounded">
+        <div class="circle1">
+            <box-icon name='bell' class="bell1"></box-icon>
+        </div>
+        </div>
+      </a>
     </div>
   </div>
   <div class="container-2">
