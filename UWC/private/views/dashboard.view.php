@@ -147,6 +147,11 @@
     <li class="prev">&#10094;</li>
     <li class="next">&#10095;</li>
     <li>December<br><span style="font-size: 18px">2022</span></li>
+    <li style="font-size: 12px">Never settle</li>
+    <li style="font-size: 12px">Gonna do better</li>
+    <li style="font-size: 12px">Give everything you've got</li>
+    <li style="font-size: 12px">You can do it</li>
+    <li style="font-size: 12px">Up the ante</li>
   </ul>
 </div>
 
