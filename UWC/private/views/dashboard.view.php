@@ -3,11 +3,11 @@
 
 <div class="my-container" style="padding: 20px;">
   <div>
-    <h3>Admin Dashboard</h3>
+    <h3 class="h-100 d-flex align-items-center justify-content-center">Admin Dashboard</h3>
   </div>
   <div class="boxes">
     <div class="row">
-      <a class="col-sm-2 rounded p-2" href="notifications" style="background-color: #FFF8E5;">
+      <a class="col-sm-3 rounded p-2" href="notifications" style="background-color: #FFF8E5;">
         <div class="p-2">
         <div class="circle1 my-circle">
             <box-icon name='bell' class="bell1"></box-icon>
@@ -18,36 +18,36 @@
             </div>
         </div>
       </a>
-      <a class="col-sm-2 rounded p-2" href="task" style="background-color: #E4F8EB;">
+      <a class="col-sm-3 rounded p-2" href="task" style="background-color: #E4F8EB;">
       <div class="p-2">
         <div class="circle2 my-circle">
             <box-icon name='bell' class="bell1"></box-icon>
         </div>
         <div>
               <h5>Tasks</h5>
-              <div class="small-text">Lorem Ipsum</div>
+              <div class="small-text">4 Projects Last Updated</div>
             </div>
         </div>
       </a>
-      <a class="col-sm-2 rounded p-2" href="employees" style="background-color:#EBE8FE">
+      <a class="col-sm-3 rounded p-2" href="employees" style="background-color:#EBE8FE">
       <div class="p-2">
         <div class="circle3 my-circle">
             <box-icon name='bell' class="bell1"></box-icon>
         </div>
         <div>
-              <h5>Employee</h5>
-              <div class="small-text">Lorem Ipsum</div>
+              <h5>Employees</h5>
+              <div class="small-text">5 Employees on Standby</div>
             </div>
         </div>
       </a>
-      <a class="col-sm-2 rounded p-2" href="#" style="background-color: #3C21F7">
+      <a class="col-sm-3 rounded p-2" href="#" style="background-color: #3C21F7">
       <div class="p-2">
         <div class="circle4 my-circle">
             <box-icon name='bell' class="bell1"></box-icon>
         </div>
         <div>
-              <h5>Create New</h5>
-              <div class="small-text">Task</div>
+              <h5 style="color:white">MCPs</h5>
+              <div class="small-text" style="color:white">3 MCPs ready to be emptied</div>
             </div>
         </div>
       </a>
