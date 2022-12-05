@@ -1,12 +1,12 @@
 <?php $this->view('includes/header') ?>
 <?php $this->view('includes/nav') ?>
 
-<div class="h-100 h-custom" style="background-image:url(../public/assets/img/bg-form.jpg);">
+<div class="h-100 h-custom" style="background-image:url(<?=ROOT?>/assets/img/bg-form.jpg);">
   <div class="container py-5 h-100">
     <div class="row d-flex justify-content-center align-items-center h-100">
       <div class="col-lg-8 col-xl-6">
         <div class="card rounded-3">
-          <img src="../public/assets/img/ajisai.jpg" class="w-100" style="border-top-left-radius: .3rem; border-top-right-radius: .3rem;">
+          <img src="<?=ROOT?>/assets/img/ajisai.jpg" class="w-100" style="border-top-left-radius: .3rem; border-top-right-radius: .3rem;">
           <div class="card-body p-4 p-md-5">
             <h3 class="mb-4 pb-2 pb-md-0 mb-md-5 px-md-2">Log in</h3>
             

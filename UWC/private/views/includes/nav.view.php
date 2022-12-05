@@ -7,7 +7,7 @@
   </div>
   <div class="mx-auto order-0">
     <a class="navbar-brand" href="index">
-      <img src="../public/assets/img/logo.png" width="50" height="50" class="d-inline-block align-top" alt="">   
+      <img src="<?=ROOT?>/assets/img/logo.png" width="50" height="50" class="d-inline-block align-top" alt="">   
     </a>
   </div>
   
@@ -20,7 +20,7 @@
         <?=Auth::user('email')?>
       </span>      
     </a>    
-    <img src="../public/assets/img/logo.png" alt="hugenerd" width="48" height="48" class="rounded-circle border border-info img-thumbnail d-none d-sm-inline mx-1">
+    <img src="<?=ROOT?>/assets/img/logo.png" alt="hugenerd" width="48" height="48" class="rounded-circle border border-info img-thumbnail d-none d-sm-inline mx-1">
     <ul class="dropdown-menu dropdown-menu-end dropdown-menu-dark text-small shadow" aria-labelledby="dropdownUser1">
       <li><span class="dropdown-item"><?=Auth::user()?></span></li><hr>
       <li><a class="dropdown-item" href="profile">Profile</a></li>
@@ -38,12 +38,13 @@
     <hr>
     <div class="offcanvas-body">
       <ul class="nav nav-pills center-pills flex-column mb-auto bx-ul">
-        <li><a class="nav-link" href="index"><box-icon name='home-alt'></box-icon>&nbsp; Home</a></li>
-        <li><a class="nav-link" href="tasks"><box-icon name='task'></box-icon>&nbsp; Tasks</a></li>
-        <li><a class="nav-link" href="messages"><box-icon name='envelope' type='solid' ></box-icon>&nbsp; Messages</a></li>
-        <li><a class="nav-link" href="notifications"><box-icon name='bell' ></box-icon>&nbsp; Notifications</a></li>
-        <li><a class="nav-link" href="employees"><box-icon name='user' ></box-icon>&nbsp; Employees</a></li>
-        <li><a class="nav-link" href="settings"><box-icon name='cog' ></box-icon>&nbsp; Settings</a></li>
+        <li><a class="nav-link" href="<?=ROOT?>"><box-icon name='home-alt'></box-icon>&nbsp; Home</a></li>
+        <li><a class="nav-link" href="<?=ROOT?>/dashboard"><box-icon name='task'></box-icon>&nbsp; Dashboard</a></li>
+        <li><a class="nav-link" href="<?=ROOT?>/tasks"><box-icon name='task'></box-icon>&nbsp; Tasks</a></li>
+        <li><a class="nav-link" href="<?=ROOT?>/messages"><box-icon name='envelope' type='solid' ></box-icon>&nbsp; Messages</a></li>
+        <li><a class="nav-link" href="<?=ROOT?>/notifications"><box-icon name='bell' ></box-icon>&nbsp; Notifications</a></li>
+        <li><a class="nav-link" href="<?=ROOT?>/employees"><box-icon name='user' ></box-icon>&nbsp; Employees</a></li>
+        <li><a class="nav-link" href="<?=ROOT?>/settings"><box-icon name='cog' ></box-icon>&nbsp; Settings</a></li>
       </ul>
     </div>
     <hr>

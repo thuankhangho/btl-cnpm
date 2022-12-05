@@ -9,7 +9,7 @@
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/aba198ab3f.js" crossorigin="anonymous"></script>
   <!-- CSS -->
-  <link rel="stylesheet" href="../public/assets/css/styles.css">
+  <link rel="stylesheet" href="<?=ROOT?>/assets/css/styles.css">
   <!-- Box Icon-->
   <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
   <title>Home</title>
