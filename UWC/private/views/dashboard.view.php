@@ -7,7 +7,7 @@
   </div>
   <div class="boxes">
     <div class="row">
-      <a class="col-sm-3 rounded p-2" href="notifications" style="background-color: #FFF8E5">
+      <a class="col-sm-3 rounded p-2" href="" style="background-color: #FFF8E5">
         <div class="p-2">
         <div class="circle1 my-circle">
             <box-icon name='bell' class="bell1"></box-icon>
@@ -18,7 +18,7 @@
             </div>
         </div>
       </a>
-      <a class="col-sm-3 rounded p-2" href="task" style="background-color: #E4F8EB;">
+      <a class="col-sm-3 rounded p-2" href="" style="background-color: #E4F8EB;">
       <div class="p-2">
         <div class="circle2 my-circle">
             <box-icon name='bell' class="bell1"></box-icon>
@@ -29,7 +29,7 @@
             </div>
         </div>
       </a>
-      <a class="col-sm-3 rounded p-2" href="employees" style="background-color:#EBE8FE">
+      <a class="col-sm-3 rounded p-2" href="" style="background-color:#EBE8FE">
       <div class="p-2">
         <div class="circle3 my-circle">
             <box-icon name='bell' class="bell1"></box-icon>
@@ -40,7 +40,7 @@
             </div>
         </div>
       </a>
-      <a class="col-sm-3 rounded p-2" href="#" style="background-color: #3C21F7">
+      <a class="col-sm-3 rounded p-2" href="" style="background-color: #3C21F7">
       <div class="p-2">
         <div class="circle4 my-circle">
             <box-icon name='bell' class="bell1"></box-icon>
