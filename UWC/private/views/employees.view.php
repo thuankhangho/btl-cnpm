@@ -4,15 +4,10 @@
 <!-- <?php print_r($data['collectors']) ?>
 <?php print_r($data['janitors']) ?> -->
 
-<!DOCTYPE html>
-<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Employee Management</title>
 </head>
-<body>
+
 
 <h3 class="h-100 d-flex align-items-center justify-content-center">Employee Management</h3>
 <div class="container-fluid p-4 shadow mx-auto">
@@ -77,6 +72,5 @@
     <?php endif;?>
   </div>
 </div>
+
 <?php $this->view('includes/footer'); ?>
-</body>
-</html>
