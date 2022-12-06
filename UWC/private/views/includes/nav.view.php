@@ -6,7 +6,7 @@
 
   </div>
   <div class="mx-auto order-0">
-    <a class="navbar-brand" href="index">
+    <a class="navbar-brand" href="<?=ROOT?>/index">
       <img src="<?=ROOT?>/assets/img/logo.png" width="50" height="50" class="d-inline-block align-top" alt="">   
     </a>
   </div>
@@ -32,17 +32,17 @@
   <!-- Side Nav Bar -->
   <div class="offcanvas offcanvas-start rounded-lg" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
     <div class="offcanvas-header">
-      <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">UWC 2.0</h5>
+      <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Urban Waste Management System</h5>
       <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
     </div>
     <hr>
     <div class="offcanvas-body">
       <ul class="nav nav-pills center-pills flex-column mb-auto bx-ul">
         <li><a class="nav-link" href="<?=ROOT?>"><box-icon name='home-alt'></box-icon>&nbsp; Home</a></li>
-        <li><a class="nav-link" href="<?=ROOT?>/dashboard"><box-icon name='task'></box-icon>&nbsp; Dashboard</a></li>
+        <li><a class="nav-link" href="<?=ROOT?>/dashboard"><box-icon name='home'></box-icon>&nbsp; Dashboard</a></li>
         <li><a class="nav-link" href="<?=ROOT?>/tasks"><box-icon name='task'></box-icon>&nbsp; Tasks</a></li>
-        <li><a class="nav-link" href="<?=ROOT?>/messages"><box-icon name='envelope' type='solid' ></box-icon>&nbsp; Messages</a></li>
-        <li><a class="nav-link" href="<?=ROOT?>/notifications"><box-icon name='bell' ></box-icon>&nbsp; Notifications</a></li>
+        <!-- <li><a class="nav-link" href="<?=ROOT?>/messages"><box-icon name='envelope' type='solid' ></box-icon>&nbsp; Messages</a></li> -->
+        <!-- <li><a class="nav-link" href="<?=ROOT?>/notifications"><box-icon name='bell' ></box-icon>&nbsp; Notifications</a></li> -->
         <li><a class="nav-link" href="<?=ROOT?>/employees"><box-icon name='user' ></box-icon>&nbsp; Employees</a></li>
         <li><a class="nav-link" href="<?=ROOT?>/settings"><box-icon name='cog' ></box-icon>&nbsp; Settings</a></li>
       </ul>

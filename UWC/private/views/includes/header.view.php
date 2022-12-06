@@ -12,9 +12,9 @@
   <link rel="stylesheet" href="<?=ROOT?>/assets/css/styles.css">
   <!-- Box Icon-->
   <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
-  <title>Home</title>
+  <!-- <title>Home</title> -->
 </head>
-<body>
+<!-- <body>
 <div style="min-width:350px;">
-</body>
+</body> -->
 </html>
