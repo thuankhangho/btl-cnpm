@@ -53,9 +53,9 @@ class Employees extends Controller {
     $collectors = array($col1, $jan1);
     $janitors = array($jan1, $col1);
     if ($id == 9) {
-      $this->view('employees', ['employee'=>$col1]);
+      $this->view('employees', ['employee'=>array($col1)]);
     } elseif ($id == 20) {
-      $this->view('employees', ['employee'=>$jan1]);
+      $this->view('employees', ['employee'=>array($jan1)]);
     } else {
       $this->view('employees', ['collectors'=>$collectors, 'janitors'=>$janitors]);
     }
