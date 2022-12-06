@@ -1,6 +1,8 @@
 <?php $this->view('includes/header') ?>
 <?php $this->view('includes/nav') ?>
-
+<head>
+  <title>Dashboard</title>
+</head>
 <div class="my-container" style="padding: 20px;">
   <div>
     <h1 class="h-100 d-flex align-items-center justify-content-center">Admin Dashboard</h1>
@@ -149,17 +151,20 @@
 
     <div class="calendar row">
       <h3 class="h-100 d-flex align-items-center justify-content-center">Calendar</h3>
-    <div class="month">
-    <ul>
-      <li class="prev">&#10094;</li>
-      <li class="next">&#10095;</li>
-      <li>December<br><span style="font-size: 18px">2022</span></li>
-      <li style="font-size: 12px">Never settle</li>
-      <li style="font-size: 12px">Gonna do better</li>
-      <li style="font-size: 12px">Give everything you've got</li>
-      <li style="font-size: 12px">You can do it</li>
-      <li style="font-size: 12px">Up the ante</li>
-    </ul>
+      <div class="month">
+        <ul>
+          <li class="prev">&#10094;</li>
+          <li class="next">&#10095;</li>
+          <li>December<br><span style="font-size: 18px">2022</span></li>
+          <li style="font-size: 12px">Never settle</li>
+          <li style="font-size: 12px">Gonna do better</li>
+          <li style="font-size: 12px">Give everything you've got</li>
+          <li style="font-size: 12px">You can do it</li>
+          <li style="font-size: 12px">Up the ante</li>
+        </ul>
+      </div>
+    </div>
+  </div>
 </div>
 
 <ul class="weekdays">
