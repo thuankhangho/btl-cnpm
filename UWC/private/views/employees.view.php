@@ -17,9 +17,9 @@
         <div class="card m-2 shadow-sm" style="max-width: 12rem;min-width: 12rem;">
             <img src="<?=ROOT?>/assets/img/logo.png" class="card-img-top " alt="Card image cap">
           <div class="card-body">
-            <h5 class="card-title"><?=$col->fullname?></h5>
-            <p class="card-text">Employee ID: <?=$col->id?></p>
-            <a href="<?=ROOT?>/employees/<?=$col->id?>" class="btn btn-primary">Profile</a>
+            <h5 class="card-title"><?=$col['fullname']?></h5>
+            <p class="card-text">Employee ID: <?=$col['id']?></p>
+            <a href="<?=ROOT?>/employees/<?=$col['id']?>" class="btn btn-primary">Profile</a>
           </div>
         </div>    
       <?php endforeach;?>
@@ -27,8 +27,8 @@
       <div class="card m-2 shadow-sm" style="max-width: 12rem;min-width: 12rem;">
           <img src="<?=ROOT?>/assets/img/logo.png" class="card-img-top " alt="Card image cap">
         <div class="card-body">
-          <h5 class="card-title"><?=$data['employee'][0]->fullname?></h5>
-          <p class="card-text">Employee ID: <?=$data['employee'][0]->id?></p>
+          <h5 class="card-title"><?=$data['employee'][0]['fullname']?></h5>
+          <p class="card-text">Employee ID: <?=$data['employee'][0]['id']?></p>
           <a href="<?=ROOT?>/employees" class="btn btn-primary">Go back</a>
         </div>
       </div>
@@ -45,9 +45,9 @@
         <div class="card m-2 shadow-sm" style="max-width: 12rem;min-width: 12rem;">
             <img src="<?=ROOT?>/assets/img/logo.png" class="card-img-top " alt="Card image cap">
           <div class="card-body">
-            <h5 class="card-title"><?=$col->fullname?></h5>
-            <p class="card-text">Employee ID: <?=$col->id?></p>
-            <a href="<?=ROOT?>/employees/<?=$col->id?>" class="btn btn-primary">Profile</a>
+            <h5 class="card-title"><?=$col['fullname']?></h5>
+            <p class="card-text">Employee ID: <?=$col['id']?></p>
+            <a href="<?=ROOT?>/employees/<?=$col['id']?>" class="btn btn-primary">Profile</a>
           </div>
         </div>    
       <?php endforeach;?>
@@ -55,8 +55,8 @@
       <div class="card m-2 shadow-sm" style="max-width: 12rem;min-width: 12rem;">
           <img src="<?=ROOT?>/assets/img/logo.png" class="card-img-top " alt="Card image cap">
         <div class="card-body">
-          <h5 class="card-title"><?=$data['employee'][0]->fullname?></h5>
-          <p class="card-text">Employee ID: <?=$data['employee'][0]->id?></p>
+          <h5 class="card-title"><?=$data['employee'][0]['fullname']?></h5>
+          <p class="card-text">Employee ID: <?=$data['employee'][0]['id']?></p>
           <a href="<?=ROOT?>/employees" class="btn btn-primary">Go back</a>
         </div>
       </div>
