@@ -14,7 +14,6 @@
   <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
   <!-- <title>Home</title> -->
 </head>
-<!-- <body>
-<div style="min-width:350px;">
-</body> -->
-</html>
+<body>
+  <div style="min-width:350px;">
+
