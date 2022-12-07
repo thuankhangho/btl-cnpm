@@ -1,8 +1,18 @@
 <?php
 
 class Profile extends Controller {
-  function index() {
-    $this->view('profile');
+  function index(int $id = null) {
+    $user = new Users();
+    $profile = array();
+    if ($id == null) {
+      $profile = $user->where('id', Auth::user('id'))[0];
+    } elseif ($exist = $user->where('id', $id)[0]) {
+      $profile = $exist;
+    } else {
+      $this->redirect('404');
+    }
+
+    $this->view('profile', ['profile'=>$profile]);
   }
 }
 

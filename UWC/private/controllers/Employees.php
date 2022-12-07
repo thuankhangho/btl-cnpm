@@ -1,23 +1,15 @@
 <?php
 
 class Employees extends Controller {
-  function index2($id = null) {
+  function index() {
     $user = new Users();
     $collectors = $user->where('occupation', 'Collector');
     $janitors = $user->where('occupation', 'Janitor');
 
-    if ($id) {
-      $this->view('employees', ['employee'=>$user->where('id', $id)]);
-    } else {
-      $this->view('employees', ['collectors'=>$collectors, 'janitors'=>$janitors]);
-    }
-    
+    $this->view('employees', ['collectors'=>$collectors, 'janitors'=>$janitors]);
   }
-  function tarot($num = 0) {
-    $major = array("The Fool", "The Magician", "The High Priestess", "The Emperess", "Emperor", "The Hierophant", "The Lovers", "The Chariot", "Stregth", "The Hermit", "Wheel of Fortune", "Justice", "The Hanged Man", "Death", "Temperance", "The Devil", "The Tower", "The Star", "The Moon", "The Sun", "Judgement", "The World");
-    if ($num >= 0 && $num <= 21) echo "Here is your card: ".$major[$num]."\n";
-  }
-  function index($id = null) {
+
+  function index_backup($id = null) {
     $col1 = array(
       'id'=>9,
       'username'=>"foursome",
@@ -60,6 +52,12 @@ class Employees extends Controller {
       $this->view('employees', ['collectors'=>$collectors, 'janitors'=>$janitors]);
     }
   }
+  
+  function tarot($num = 0) {
+    $major = array("The Fool", "The Magician", "The High Priestess", "The Emperess", "Emperor", "The Hierophant", "The Lovers", "The Chariot", "Stregth", "The Hermit", "Wheel of Fortune", "Justice", "The Hanged Man", "Death", "Temperance", "The Devil", "The Tower", "The Star", "The Moon", "The Sun", "Judgement", "The World");
+    if ($num >= 0 && $num <= 21) echo "Here is your card: ".$major[$num]."\n";
+  }
+  
 }
 
 ?>
