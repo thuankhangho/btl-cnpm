@@ -6,7 +6,7 @@
 
   </div>
   <div class="mx-auto order-0">
-    <a class="navbar-brand" href="<?=ROOT?>/index">
+    <a class="navbar-brand" href="<?=ROOT?>">
       <img src="<?=ROOT?>/assets/img/logo.png" width="50" height="50" class="d-inline-block align-top" alt="">   
     </a>
   </div>

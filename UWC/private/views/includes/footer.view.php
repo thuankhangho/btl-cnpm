@@ -1,5 +1,3 @@
-</div>
-
 <div class="footer text-center">
   <div class="container p-4">
     <!-- Section: Social media -->
@@ -72,7 +70,6 @@
     </div>
   </div>
 </div>
-</body>
 
 <style>
   /*footer*/
@@ -85,4 +82,3 @@
     align-items: center;
   }
 </style>
-</html>
