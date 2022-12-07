@@ -1,6 +1,8 @@
 <?php $this->view('includes/header') ?>
 <?php $this->view('includes/nav') ?>
-
+<head>
+  <title>Sign up</title>
+</head>
 <div class="h-100 h-custom" style="background-image:url(<?=ROOT?>/assets/img/bg-form.jpg);">
   <div class="container py-5 h-100">
     <div class="row d-flex justify-content-center align-items-center h-100">
@@ -11,13 +13,13 @@
             <h3 class="mb-4 pb-2 pb-md-0 mb-md-5 px-md-2">Sign up</h3>
             
             <?php if (count($errors) > 0): ?>
-            <div class="alert alert-danger alert-dismissible fade show" role="alert">
-              <strong>ERROR!</strong>
-              <?php foreach($errors as $error): ?>
-                <br><?=$error?>
-              <?php endforeach; ?>
-              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-            </div>
+              <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                <strong>ERROR!</strong>
+                <?php foreach($errors as $error): ?>
+                  <br><?=$error?>
+                <?php endforeach; ?>
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+              </div>
             <?php endif; ?>
 
             <form action="" method="post" class="px-md-2">

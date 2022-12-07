@@ -1,6 +1,6 @@
 </div>
 
-<footer class="footer text-center" style="font-family: 'Oswald', sans-serif;">
+<div class="footer text-center">
   <div class="container p-4">
     <!-- Section: Social media -->
     <div class="mb-4">
@@ -44,39 +44,40 @@
         </div>
       </div>
       <div class="col-sm-4" style="text-align: left; color: white">
-      <h4 style="font-family: 'Merriweather', serif; font-weight: bold">AREAS OF INTEREST</h4>
-      <div style="border-top: solid; margin-right: 25px">
-        <ul>
-          <li>Cleaning urban waste</li>
-          <li>Basically it</li>
-          <li>I mean, you can help us by not polluting</li>
-          <li>Oh we also hold volunteer workshops on Sundays</li>
-          <li>But you wouldn't come anyway</li>
-        </ul>
-      </div>
+        <h4 style="font-family: 'Merriweather', serif; font-weight: bold">AREAS OF INTEREST</h4>
+        <div style="border-top: solid; margin-right: 25px">
+          <ul>
+            <li>Cleaning urban waste</li>
+            <li>Basically it</li>
+            <li>I mean, you can help us by not polluting</li>
+            <li>Oh we also hold volunteer workshops on Sundays</li>
+            <li>But you wouldn't come anyway</li>
+          </ul>
+        </div>
       </div>
       <div class="col-sm-4" style="text-align: left; color: white">
-      <h4 style="font-family: 'Merriweather', serif; font-weight: bold">WORKING TIMES</h4>
-      <div style="border-top: solid; margin-right: 25px">
-        <ul>
-          <li>Between 09:00 & 20:00</li>
-          <li>Every day, except Sunday</li>
-          <li>Definitely not on holidays</li>
-          <li>Hotline: (+84)822 870 179</li>
-          <li>New news on Saturday</li>
-        </ul>
-      </div>
+        <h4 style="font-family: 'Merriweather', serif; font-weight: bold">WORKING TIMES</h4>
+        <div style="border-top: solid; margin-right: 25px">
+          <ul>
+            <li>Between 09:00 & 20:00</li>
+            <li>Every day, except Sunday</li>
+            <li>Definitely not on holidays</li>
+            <li>Hotline: (+84)822 870 179</li>
+            <li>New news on Saturday</li>
+          </ul>
+        </div>
       </div>
       <!-- Section: Social media -->
       <p style="font-weight: bold; color: white">©2022 All Rights Reserved</p>
     </div>
   </div>
-</footer>
+</div>
 </body>
 
 <style>
   /*footer*/
   .footer {
+    font-family: 'Oswald', sans-serif;
     border-top: black;
     background-color: green;
     display: flex;
