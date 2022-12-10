@@ -32,9 +32,9 @@ Needs:
   Collectors: co-ords to MCPs & vehicles
   Janitors: trolleys & assigned areas
 Current problems:
-  Back officers: scheduling & routing, loaded MCPs or not, communicate
-  Collectors: loaded MCPs, communicate
-  Janitors: communicate
+  Back officers: scheduling & routing, loaded MCPs or not, communicating with others
+  Collectors: loaded MCPs, communicating with others
+  Janitors: communicating with others
 Benefits:
   Back officers: cross-use with 1.0, ability to reuse old databases, ability to manage more MCPs
   Collectors: ease of access via language check
@@ -43,11 +43,11 @@ Benefits:
 1.2. Describe all functional and non-functional requirements that can be inferred from the project description. Draw a use-case diagram for the whole system.
 
 Functional:
-  Overview of janitors & collectors, their work calendar, vehicles and their technical details (weight, capacity, fuel consumptions, etc), all MCPs and information about their capacity.
+  Overview of janitors & collectors, their work calendar, vehicles and their technical details (weight, capacity, fuel consumptions, etc), all MCPs and information about their capacity
   Assignment of vehicles to janitors & collectors, janitors & collectors to MCPs (task)
-  Route creation for each collector.
-  Detail view of their task on a daily and weekly basic.
-  Ability to communicate with collectors, other janitors & back officers.
+  Route creation for each collector
+  Detail view of their task on a daily & weekly basis
+  Ability to communicate with collectors, other janitors & back officers
   Check in / check out task every day
   Be notified about the MCPs if they are fully loaded
 
