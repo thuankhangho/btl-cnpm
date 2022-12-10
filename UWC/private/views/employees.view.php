@@ -12,7 +12,7 @@
 <h3 class="h-100 d-flex align-items-center justify-content-center">Employee Management</h3>
 <div class="container-fluid p-4 shadow mx-auto">
 <h4>Collectors</h4>
-  <a href="#">
+  <a href="<?=ROOT?>/signup">
     <button class="btn btn-sm btn-primary" style="background-color: green"><i class="fa fa-plus"></i> Add New</button>
   </a>
   <div class="card-group justify-content-center">
@@ -33,7 +33,7 @@
   </div>
   
   <h4>Janitors</h4>
-  <a href="#">            
+  <a href="<?=ROOT?>/signup">            
     <button class="btn btn-sm btn-primary" style="background-color: green"><i class="fa fa-plus"></i> Add New</button>
   </a>
   <div class="card-group justify-content-center">

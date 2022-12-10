@@ -2,6 +2,7 @@
 
 class Employees extends Controller {
   function index() {
+    if (!Auth::logged_in()) $this->redirect('login');
     $user = new Users();
     $collectors = $user->where('occupation', 'Collector');
     $janitors = $user->where('occupation', 'Janitor');

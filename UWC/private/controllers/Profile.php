@@ -2,6 +2,7 @@
 
 class Profile extends Controller {
   function index(int $id = null) {
+    if (!Auth::logged_in()) $this->redirect('login');
     $user = new Users();
     $profile = array();
     if ($id == null) {

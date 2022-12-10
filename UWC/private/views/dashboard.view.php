@@ -31,7 +31,7 @@
           </div>
         </div>
       </a>
-      <a class="col-sm-3 rounded p-2" href="" style="background-color:#EBE8FE">
+      <a class="col-sm-3 rounded p-2" href="<?=ROOT?>/employees" style="background-color:#EBE8FE">
       <div class="p-2">
         <div class="circle3 my-circle">
             <box-icon name='bell' class="bell1"></box-icon>
