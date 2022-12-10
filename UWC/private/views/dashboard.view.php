@@ -62,7 +62,7 @@
         <table class="table table-hover">
           <thead>
             <tr>
-              <th scope="col">Notifications</th>
+              <th scope="col">Tasks</th>
             </tr>
           </thead>
           <tbody>

@@ -30,7 +30,7 @@ Stakeholder: back officers, collectors, janitors
 Needs:
   Back officers: system to manage schedules, routes, MCPs, sending info to janitors & collectors
   Collectors: co-ords to MCPs & vehicles
-  Janitors: trollers & assigned areas
+  Janitors: trolleys & assigned areas
 Current problems:
   Back officers: scheduling & routing, loaded MCPs or not, communicate
   Collectors: loaded MCPs, communicate
